@@ -1,0 +1,583 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+
+.logoimg {
+    height: 55px;
+}
+
+.navbar {
+    background-color: #0c0521;
+}
+
+.v {
+    background-color: white;
+    border-width: 0px;
+}
+
+.bgcontainer {
+    margin-bottom: 20px;
+}
+
+.v:hover {
+    border-width: 0px;
+    background-color: white;
+    color: white;
+}
+
+.f {
+    font-size: 22px;
+    padding-left: 30px;
+    padding-top: 10px;
+    font-family: Bree serif;
+    padding-right: 50px;
+
+}
+
+.h {
+    height: 300px;
+}
+
+.section-second {
+    margin-top: 80px;
+
+}
+
+.service-content {
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.service-heading {
+
+    color: #183b56;
+    font-family: Roboto;
+    font-weight: 600;
+
+
+}
+
+.service-para {
+    color: #616c7c;
+    font-size: 18px;
+    font-family: Roboto;
+
+}
+
+.service-info {
+    font-family: Roboto;
+    margin-top: 35px;
+
+}
+
+.m {
+    border-radius: 30px;
+}
+
+.service-i {
+    height: 90px;
+
+}
+
+
+
+.service-info-heading {
+    font-size: 27px;
+    padding-top: 10px;
+
+
+}
+
+.service-info-para {
+    font-size: 18px;
+    padding-top: 3px;
+}
+
+
+.product-image {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-products-headphones-bg.png');
+    background-size: cover;
+    height: 400px;
+    text-align: left;
+    border-radius: 20px;
+    width: auto;
+
+}
+
+
+
+.product-image2 {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-products-laptops-bg.png');
+    background-size: cover;
+    height: 400px;
+    text-align: left;
+    border-radius: 20px;
+    width: auto;
+}
+
+.product-image3 {
+    background-image: url('https://media.licdn.com/dms/image/v2/D4D12AQFjoq-6K_KBLw/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1727906417935?e=2147483647&v=beta&t=tLIUOEMJAWf_u3oLzOz2d9AG6q9JZ4V-RTx-Vt14L1E');
+    background-size: cover;
+    height: 400px;
+    text-align: left;
+    border-radius: 20px;
+    width: auto;
+
+}
+
+.product-image4 {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL-vsM-PlDi4ixM_D2SqGH3ZywevfeKsY4fQ&s');
+    background-size: cover;
+
+    height: 400px;
+    text-align: left;
+    border-radius: 20px;
+    width: auto;
+
+
+}
+
+.product-image5 {
+    background-image: url('https://m.economictimes.com/thumb/msid-75668135,width-1200,height-900,resizemode-4,imgsize-172382/grocery-getty-f.jpg');
+    background-size: cover;
+    height: 400px;
+    text-align: left;
+    border-radius: 20px;
+    width: auto;
+
+}
+
+
+.product-image6 {
+    background-image: url('https://zimsonwatches.com/cdn/shop/articles/Fossil_banner.png?v=1725516187&width=1100');
+    background-size: cover;
+    height: 400px;
+    text-align: left;
+    width: auto;
+    border-radius: 20px;
+
+}
+
+.product-heading {
+    font-size: 38px;
+    font-weight: 670;
+    color: white;
+
+    padding-right: 90px;
+}
+
+.product-headingg {
+    color: #183b56;
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 36px;
+
+}
+
+.product-section {
+    margin-top: 40px;
+}
+
+.product-para {
+    font-size: 20px;
+    padding-right: 90px;
+    color: white;
+}
+
+.but {
+    padding-right: 90px;
+    background-color: white;
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 40px;
+    border-width: 0px;
+    color: #ff9f00;
+
+}
+
+.c {
+    margin-bottom: 30px;
+
+
+}
+
+.headphone {
+    border-radius: 20px;
+}
+
+.head-image {
+
+    height: 100px;
+
+}
+
+.h-heading {
+    padding: 6px;
+    font-size: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: Roboto;
+}
+
+.headphone {
+    padding-bottom: 10px;
+    margin-top: 15px;
+    padding-top: 10px;
+
+    height: auto;
+
+}
+
+.head-image {
+    text-align: center;
+}
+
+.h-offer {
+    text-decoration: line-through;
+}
+
+
+
+.newyear-content {
+    background-image: linear-gradient(to right, #f49541, #dd5d97);
+
+}
+
+.f-image {
+    height: 130px;
+    width: 120px
+}
+
+.s-image {
+    width: 80vw;
+    height: 160px;
+}
+
+
+
+.first-image {
+    height: 200px;
+    text-align: center;
+
+    background-size: cover;
+
+
+}
+
+.first-imagee {
+
+    height: 150px;
+    text-align: center;
+
+
+    background-size: cover;
+
+}
+
+.gg {
+    width: 100%;
+}
+
+.second-image {
+    height: 300px;
+    width: 60vw;
+
+}
+
+.second-imagee {
+    height: 320px;
+
+}
+
+.ss {
+    background-image: linear-gradient(to right, #f49541, #dd5d97);
+
+
+}
+
+
+.details {
+    margin-top: 10px;
+}
+
+
+
+.img-discount {
+    height: 150px;
+    width: 60vw;
+
+}
+
+.content-heading {
+    color: #ad2167;
+    font-family: Bree serif;
+}
+
+.content-para {
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 28px;
+}
+
+.ii {
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+.blog-first-image {
+    width: 100%;
+
+
+}
+
+.cc {
+    margin-top: 15px;
+}
+
+.blog-content {
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+
+.blog-para1 {
+    color: #959ead;
+    font-size: 22px;
+    padding-top: 12px;
+}
+
+.blog-heading-title {
+    color: #183b56;
+    font-weight: 660;
+}
+
+.blog-heading {
+    color: #183b56;
+    font-size: 34px;
+    font-weight: 650;
+}
+
+.blog-para2 {
+    font-size: 23px;
+    color: #959ead;
+    padding-right: 10px
+}
+
+.link {
+    color: #ff9f00;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.linktv {
+    color: #ff9f00;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.full {
+    border-radius: 20px;
+}
+
+#deals {
+    background-color: #ebedec;
+    margin-top: 60px;
+    padding-bottom: 60px;
+}
+
+.deals-heading {
+    padding-top: 60px;
+    padding-left: 14px;
+    font-size: 34px;
+    color: #1f2933;
+    font-weight: 560;
+    font-family: Bree serif;
+}
+
+
+.gadget-section {
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+
+}
+
+.gadget-heading {
+    font-size: 32px;
+    padding: 10px;
+}
+
+
+.iii {
+    height: 110px;
+    border-radius: 20px;
+}
+
+.deals-image-section {
+    margin: 10px;
+    padding: 2px;
+}
+
+.deals-para {
+    padding-top: 12px;
+    font-size: 20px;
+    color: #1f2933;
+    font-family: Roboto;
+}
+
+.link {
+    padding-left: 10px;
+}
+
+.gadget-section {
+    margin: 13px;
+
+}
+
+.gadget-heading {
+    color: #183b56;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.tvimg {
+    width: 100%;
+    border-radius: 13px;
+    margin-bottom: 20px;
+}
+
+.join-section {
+    text-align: center;
+    margin-top: 16px;
+}
+
+.join0heading {
+    font-size: 31px;
+    color: #183b56;
+    font-weight: 600;
+    font-family: Roboto;
+
+
+}
+
+
+.contact-btn {
+    color: #ff9f00;
+    background-color: transparent;
+    border: 4px solid #ff9f00;
+    padding: 13px;
+    font-size: 19px;
+    border-width: 3px;
+    border-radius: 2px;
+
+
+}
+
+.fotter-image {
+    height: 50px;
+
+}
+
+
+
+.ghrading {
+    color: #5a7184;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.list {
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.ecommerce {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.icons {
+    margin-top: 20px;
+}
+
+.i {
+    margin: 2px;
+    background-color: #152c3e;
+    border-radius: 30px;
+    padding: 13px;
+    color: #5a7184;
+    font-size: 17px;
+}
+
+.head {
+    font-size: 25px;
+}
+
+.main {
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 50%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.para {
+    margin-top: 8px;
+    font-size: 18px;
+}
+
+.footer-para {
+    font-size: 23px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.line {
+    margin-top: 80px;
+    background-color: #5a7184;
+}
+
+
+.ii {
+    margin-left: 10px;
+}
+
+
+.footer {
+    font-weight: bold;
+    margin-top: 40px;
+    font-size: 23px;
+}
+
+.p {
+    font-size: 19px;
+    font-style: normal;
+    color: white;
+}
+
+.fot {
+
+    background-color: #0d2436;
+
+    color: white;
+
+
+}

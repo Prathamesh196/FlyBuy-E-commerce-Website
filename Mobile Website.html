@@ -1,0 +1,1408 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/30a85ac1ff.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="containerfluid">
+
+        <nav class="navbar navbar-expand-lg navbar-background navbar-light navbar-bg-dark fixed-top">
+            <a class="navbar-brand" href="#">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-website-logo-img.png" class="logoimg">
+            </a>
+            <button class="v navbar-toggler t" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                <div class="f navbar-nav ml-auto ">
+                    <a class="f nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="f nav-link text-white" href="#product-id">Shop</a>
+                    <a class="f nav-link text-white" href="#deals">See Latest Deals</a>
+                    <a class="f nav-link text-white" href="#TrendingBlogs">Trending Blogs</a>
+                    <a class="f nav-link text-white" href="#fut">About Us</a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Carousel for small devices -->
+                <div class="col-12 d-block d-md-none">
+                    <div class="section-second">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc4/Samsung-Galaxy-S25-Serie-Leak-nennt-Vorbesteller-Deal-Preisniveau-und-wichtige-Specs.jpg" class="d-block w-100" style="height: 45vh; background-image: cover;" alt="Slide 1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://images.macrumors.com/t/sw9ltSyMoEJ0UJEiZpiPPj2FPEc=/1600x0/article-new/2024/11/iPhone-17-Pro-Dual-Tone-Rectangle-Feature-1.jpg" class="d-block w-100" style="height: 45vh; background-image: cover;" alt="Slide 2">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://m.media-amazon.com/images/G/31/Laptops/July24_Laptop_CLP_Targeting/Smartchoice_Header_1400._CB567444914_.gif" class="d-block w-100" style="height: 45vh; background-image: cover;" alt="Slide 3">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Carousel for medium and larger devices -->
+                <div class=" col-12 d-none d-md-block">
+                    <div class="section-second">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc4/Samsung-Galaxy-S25-Serie-Leak-nennt-Vorbesteller-Deal-Preisniveau-und-wichtige-Specs.jpg" class="d-block w-100" style="height: 80vh; object-fit: cover;" alt="Slide 1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://images.macrumors.com/t/sw9ltSyMoEJ0UJEiZpiPPj2FPEc=/1600x0/article-new/2024/11/iPhone-17-Pro-Dual-Tone-Rectangle-Feature-1.jpg" class="d-block w-100" style="height: 80vh; object-fit: cover;" alt="Slide 2">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://m.media-amazon.com/images/G/31/Laptops/July24_Laptop_CLP_Targeting/Smartchoice_Header_1400._CB567444914_.gif" class="d-block w-100" style="height: 80vh; object-fit: cover;" alt="Slide 3">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="bgcontainer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 ">
+                        <div class="service-content">
+                            <h1 class="service-heading">Our services</h1>
+                            <p class="service-para">Most online stores offer lower prices.
+                                Online shopping makes prices .
+                                It is very convient to shop from where you are located.
+                                It saves you the
+                                cost of driving to stores , as well as parking fees.</p>
+
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <div class="service-info text-center">
+                            <div class="m shadow p-3 service-image">
+                                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-services-delivery-img.png" class="service-i">
+                                <h1 class="service-info-heading">Fast and Free Delivery</h1>
+                                <p class="service-info-para">Fast, free, and convient delivery choices on millions of items</p>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+                    <div class="col-12 col-md-4">
+                        <div class="m service-info text-center">
+                            <div class="m shadow p-3 service-image">
+                                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-services-money-back-img.png" class="service-i">
+                                <h1 class="service-info-heading">100% Money back guarantee</h1>
+                                <p class="service-info-para">This is probably the most popular guarntee in the world</p>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-12 col-md-4">
+                        <div class="service-info text-center">
+                            <div class="m shadow p-3 service-image">
+                                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-services-24-by-7-support-img.png" class="service-i">
+                                <h1 class="service-info-heading">Online Support 24/7</h1>
+                                <p class="service-info-para">Our Online Support will provide you with many useful functions, valuable information, tips.</p>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+        <div id="product-id">
+            <div class="product-section">
+                <div class="container">
+                    <h1 class="product-headingg">Our Products</h1>
+                    <div class="row">
+
+                        <div class="c col-12 col-md-6">
+
+                            <div class="product-image d-flex flex-column justify-content-end p-3 pb-4">
+                                <div class="product-content ">
+                                    <h1 class="product-heading">Smart Headphones</h1>
+                                    <p class="product-para">Headphone with deep bass sound
+                                        and touch</p>
+                                    <button type="button" class="but" data-toggle="modal" data-target="#staticBackdrop">
+                                        View Details
+                                    </button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="staticBackdropLabel">Headphones</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="bg">
+                                                        <div class="row">
+                                                            <div class="col-6 col-md-6">
+                                                                <div class="headphone shadow  text-center">
+                                                                    <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSb9-vDjZAJpJPrsG6cYNnZQ-K_J7l6ee9ROe6cugzfBI3iXyVtm0iqQFANBlLVpAh7W3nZOL2ZCwBUYL5cbSRwH9hQQxqjHUWsQQBrw3Dzcg8cruPtTZKwxw&usqp=CAE" class="head-image">
+                                                                    <h1 class="h-heading">ZEBRONICS Jet Gaming Headphone, LED, 40mm Drivers, Flexible Mic. </h1>
+                                                                    <p class="h-para">Offer Rs.<span class="h-offer">1700</span></p>
+                                                                    <p class="h-actual-price">Rs.1200 <span class="he">Only</span></p>
+                                                                    <button class="btn btn-primary head-button">Buy</button>
+
+                                                                    <p></p>
+
+
+                                                                </div>
+                                                            </div>
+
+
+                                                            <div class="col-6 col-md-6">
+                                                                <div class="headphone shadow  text-center">
+                                                                    <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTAA2C_9EsZRWQZbtsN-Lkww-zcX09SeB6Pj7kptnAAXmGybn1Ps9menYkwAv6QV4tSiQ-IrKFriVt65di-XDQNUE_IF-fh-LuPlHmOLqFBHQpJGxVvM0HP&usqp=CAE" class="head-image">
+                                                                    <h1 class="h-heading">Noise Two Wireless Headphones, 50-Hour Playtime, Low Latency.</h1>
+                                                                    <p class="h-para">Offer Rs.<span class="h-offer">3000</span></p>
+                                                                    <p class="h-actual-price">Rs.2100 <span class="he">Only</span></p>
+                                                                    <button class="btn btn-primary head-button">Buy</button>
+                                                                    <p></p>
+                                                                </div>
+                                                            </div>
+
+
+
+
+
+                                                            <div class="col-6 col-md-6">
+                                                                <div class="headphone shadow  text-center">
+                                                                    <img src="https://m.media-amazon.com/images/I/61j0xja8hGL._AC_UY327_FMwebp_QL65_.jpg" class="head-image">
+                                                                    <h1 class="h-heading">Boult ZCharge Neckband, 40H Playtime, ENC, Fast Charging.</h1>
+                                                                    <p class="h-para">Offer Rs.<span class="h-offer">1500</span></p>
+                                                                    <p class="h-actual-price">Rs.999 <span class="he">Only</span></p>
+                                                                    <button class="btn btn-primary head-button">Buy</button>
+                                                                    <p></p>
+                                                                </div>
+                                                            </div>
+
+
+                                                            <div class="col-6">
+                                                                <div class="headphone shadow  text-center">
+                                                                    <img src="https://m.media-amazon.com/images/I/61+SW9nDTEL._AC_UY327_FMwebp_QL65_.jpg" class="head-image">
+                                                                    <h1 class="h-heading">boAt Rockerz 255 Pro+, 60H Battery, Fast Charge, IPX7.</h1>
+                                                                    <p class="h-para">Offer Rs.<span class="h-offer">1800</span></p>
+                                                                    <p class="h-actual-price">Rs.999 <span class="he">Only</span></p>
+                                                                    <button class="btn btn-primary head-button">Buy</button>
+                                                                    <p></p>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-6">
+                                                                <div class="headphone shadow  text-center">
+                                                                    <img src="https://m.media-amazon.com/images/I/61XvYOrqVeL._AC_UY327_FMwebp_QL65_.jpg" class="head-image">
+                                                                    <h1 class="h-heading">boAt Rockerz 425 Headphones, Gaming Mode, 25H Playtime, V5.2.</h1>
+                                                                    <p class="h-para">Offer Rs.<span class="h-offer">2000</span></p>
+                                                                    <p class="h-actual-price">Rs.1229 <span class="he">Only</span></p>
+                                                                    <button class="btn btn-primary head-button">Buy</button>
+                                                                    <p></p>
+                                                                </div>
+                                                            </div>
+
+
+                                                            <div class="col-6">
+                                                                <div class="headphone shadow  text-center">
+                                                                    <img src="https://m.media-amazon.com/images/I/61kFL7ywsZS._AC_UY327_FMwebp_QL65_.jpg" class="head-image">
+                                                                    <h1 class="h-heading">JBL Tune 510BT Headphones, 40H Playtime, Quick Charge, Bluetooth 5.0.</h1>
+                                                                    <p class="h-para">Offer Rs.<span class="h-offer">3400</span></p>
+                                                                    <p class="h-actual-price">Rs.2499 <span class="he">Only</span></p>
+                                                                    <button class="btn btn-primary head-button">Buy</button>
+                                                                    <p></p>
+                                                                </div>
+                                                            </div>
+
+
+                                                            <div class="col-6">
+                                                                <div class="headphone shadow  text-center">
+                                                                    <img src="https://m.media-amazon.com/images/I/61vIICn1JOL._AC_UY327_FMwebp_QL65_.jpg" class="head-image">
+                                                                    <h1 class="h-heading">Sony WH-1000XM4, Wireless Noise Cancelling, 30H Battery, Touch Control.</h1>
+                                                                    <p class="h-para">Offer Rs.<span class="h-offer">26000</span></p>
+                                                                    <p class="h-actual-price">Rs.20989 <span class="he">Only</span></p>
+                                                                    <button class="btn btn-primary head-button">Buy</button>
+                                                                    <p></p>
+                                                                </div>
+                                                            </div>
+
+
+                                                            <div class="col-6">
+                                                                <div class="headphone shadow  text-center">
+                                                                    <img src="https://m.media-amazon.com/images/I/71oJHnwdmTL._AC_UY327_FMwebp_QL65_.jpg" class="head-image">
+                                                                    <h1 class="h-heading">ZEBRONICS Envy 2, Wireless, 65H Playback, ENC, Best Gaming Mode.</h1>
+                                                                    <p class="h-para">Offer Rs.<span class="h-offer">2400</span></p>
+                                                                    <p class="h-actual-price">Rs.1699 <span class="he">Only</span></p>
+                                                                    <button class="btn btn-primary head-button">Buy</button>
+                                                                    <p></p>
+                                                                </div>
+                                                            </div>
+
+
+
+
+                                                        </div>
+
+                                                    </div>
+
+
+
+
+
+
+
+
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="but btn btn-secondary" data-dismiss="modal">Close</button>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+
+
+
+                        <div class="c col-12 col-md-6">
+
+                            <div class="product-image2 d-flex flex-column justify-content-end p-3 pb-4">
+                                <div class="product-content ">
+                                    <h1 class="product-heading">Laptops</h1>
+                                    <p class="product-para">Explore vast selection of laptops</p>
+                                    <button type="button" class="but" data-toggle="modal" data-target="#laptopModal">
+                                        View Details
+                                    </button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="laptopModal" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="staticBackdropLabel">Laptops</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="bg">
+                                                        <div class="row">
+                                                            <div class="col-12 col-md-6">
+                                                                <div class="headphone shadow  text-center">
+                                                                    <img src="https://m.media-amazon.com/images/I/611AaVzaCQL._AC_UY327_FMwebp_QL65_.jpg" class="head-image">
+                                                                    <h1 class="h-heading">Refurbished Lenovo ThinkPad, i5, 16GB RAM, 512GB SSD, Windows 11.</h1>
+                                                                    <p class="h-para">Offer Rs.<span class="h-offer">36,000</span></p>
+                                                                    <p class="h-actual-price">Rs.16,920 <span class="he">Only</span></p>
+                                                                    <button class="btn btn-primary head-button">Buy</button>
+
+                                                                    <p></p>
+
+
+                                                                </div>
+                                                            </div>
+
+
+                                                            <div class="col-12 col-md-6">
+                                                                <div class="headphone shadow  text-center">
+                                                                    <img src="https://m.media-amazon.com/images/I/71jG+e7roXL._AC_UY327_FMwebp_QL65_.jpg" class="head-image">
+                                                                    <h1 class="h-heading">Apple MacBook Air, M1 Chip, 13.3" Retina, 8GB RAM, 256GB SSD.</h1>
+                                                                    <p class="h-para">Offer Rs.<span class="h-offer">75,000</span></p>
+                                                                    <p class="h-actual-price">Rs.69,900 <span class="he">Only</span></p>
+                                                                    <button class="btn btn-primary head-button">Buy</button>
+                                                                    <p></p>
+                                                                </div>
+                                                            </div>
+
+
+
+
+
+                                                            <div class="col-12 col-md-6">
+                                                                <div class="headphone shadow  text-center">
+                                                                    <img src="https://m.media-amazon.com/images/I/61qlqvTsocL._AC_UY327_FMwebp_QL65_.jpg" class="head-image">
+                                                                    <h1 class="h-heading">Acer Aspire 3, Celeron N4500, 8GB RAM, 512GB SSD, 15.6".</h1>
+                                                                    <p class="h-para">Offer Rs.<span class="h-offer">24,000</span></p>
+                                                                    <p class="h-actual-price">Rs.21,000 <span class="he">Only</span></p>
+                                                                    <button class="btn btn-primary head-button">Buy</button>
+                                                                    <p></p>
+                                                                </div>
+                                                            </div>
+
+
+                                                            <div class="col-12 col-md-6">
+                                                                <div class="headphone shadow  text-center">
+                                                                    <img src="https://m.media-amazon.com/images/I/717nrPQESnL._AC_UY327_FMwebp_QL65_.jpg" class="head-image">
+                                                                    <h1 class="h-heading">HP 15s, i3-1215U, 8GB RAM, 512GB SSD, FHD, Backlit Keyboard.</h1>
+                                                                    <p class="h-para">Offer Rs.<span class="h-offer">35,000</span></p>
+                                                                    <p class="h-actual-price">Rs.30,000 <span class="he">Only</span></p>
+                                                                    <button class="btn btn-primary head-button">Buy</button>
+                                                                    <p></p>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-12 col-md-6">
+                                                                <div class="headphone shadow  text-center">
+                                                                    <img src="https://m.media-amazon.com/images/I/61-Y-eWXqtL._AC_UY327_FMwebp_QL65_.jpg" class="head-image">
+                                                                    <h1 class="h-heading">Dell Smartchoice, i3-1215U, 8GB RAM, 512GB SSD, FHD, Windows 11.</h1>
+                                                                    <p class="h-para">Offer Rs.<span class="h-offer">39,000</span></p>
+                                                                    <p class="h-actual-price">Rs.34,990 <span class="he">Only</span></p>
+                                                                    <button class="btn btn-primary head-button">Buy</button>
+                                                                    <p></p>
+                                                                </div>
+                                                            </div>
+
+
+                                                            <div class="col-12 col-md-6">
+                                                                <div class="headphone shadow  text-center">
+                                                                    <img src="https://m.media-amazon.com/images/I/51Vl3NXlzbL._AC_UY327_FMwebp_QL65_.jpg" class="head-image">
+                                                                    <h1 class="h-heading">HP 15s, Ryzen 5000, 16GB RAM, 512GB SSD, FHD, Backlit.</h1>
+                                                                    <p class="h-para">Offer Rs.<span class="h-offer">45,000</span></p>
+                                                                    <p class="h-actual-price">Rs.41,690 <span class="he">Only</span></p>
+                                                                    <button class="btn btn-primary head-button">Buy</button>
+                                                                    <p></p>
+                                                                </div>
+                                                            </div>
+
+
+                                                            <div class="col-12 col-md-6">
+                                                                <div class="headphone shadow  text-center">
+                                                                    <img src="https://m.media-amazon.com/images/I/61eA9PkZ07L._AC_UY327_FMwebp_QL65_.jpg" class="head-image">
+                                                                    <h1 class="h-heading">Apple MacBook Pro 2024, M4 Chip, 14.2" XDR, 16GB, 512GB SSD.</h1>
+                                                                    <p class="h-para">Offer Rs.<span class="h-offer">1,90,000</span></p>
+                                                                    <p class="h-actual-price">Rs.1,62,990 <span class="he">Only</span></p>
+                                                                    <button class="btn btn-primary head-button">Buy</button>
+                                                                    <p></p>
+                                                                </div>
+                                                            </div>
+
+
+                                                            <div class="col-12 col-md-6">
+                                                                <div class="headphone shadow  text-center">
+                                                                    <img src="https://m.media-amazon.com/images/I/71r8h9mLzHL._AC_UY327_FMwebp_QL65_.jpg" class="head-image">
+                                                                    <h1 class="h-heading">Apple MacBook Air 2022, M2, 13.6" Retina, 16GB RAM, 256GB SSD.</h1>
+                                                                    <p class="h-para">Offer Rs.<span class="h-offer">99,999</span></p>
+                                                                    <p class="h-actual-price">Rs.94,990 <span class="he">Only</span></p>
+                                                                    <button class="btn btn-primary head-button">Buy</button>
+                                                                    <p></p>
+                                                                </div>
+                                                            </div>
+
+
+
+
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="but btn btn-secondary" data-dismiss="modal">Close</button>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+
+
+
+                        <div class="c col-12 col-md-6">
+
+                            <div class="product-image3 d-flex flex-column justify-content-end p-3 pb-4">
+                                <div class="product-content ">
+                                    <h1 class="product-heading">Smartphones</h1>
+                                    <p class="product-para">Explore different section of smartphones...</p>
+                                    <button type="button" class="but" data-toggle="modal" data-target="#SmartphonesModal">
+                                        View Details
+                                    </button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="SmartphonesModal" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="staticBackdropLabel">Smartphones</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="bg">
+                                                        <div class="row">
+                                                            <div class="col-12">
+                                                                <div class="headphone shadow  text-center">
+                                                                    <img src="https://m.media-amazon.com/images/I/71lD7eGdW-L._AC_UY327_FMwebp_QL65_.jpg" class="head-image">
+                                                                    <h1 class="h-heading">Samsung Galaxy S23 Ultra, 5G, 12GB RAM, 256GB Storage, Green.</h1>
+                                                                    <p class="h-para">Offer Rs.<span class="h-offer">80,000</span></p>
+                                                                    <p class="h-actual-price">Rs.72,690 <span class="he">Only</span></p>
+                                                                    <button class="btn btn-primary head-button">Buy</button>
+
+                                                                    <p></p>
+
+
+                                                                </div>
+                                                            </div>
+
+
+                                                            <div class="col-12">
+                                                                <div class="headphone shadow  text-center">
+                                                                    <img src="https://m.media-amazon.com/images/I/71r0Ysx+oVL._AC_UY327_FMwebp_QL65_.jpg" class="head-image">
+                                                                    <h1 class="h-heading">realme NARZO N61, 6GB RAM, 128GB Storage, 90Hz Display, IP54.</h1>
+                                                                    <p class="h-para">Offer Rs.<span class="h-offer">10,000</span></p>
+                                                                    <p class="h-actual-price">Rs.8,498 <span class="he">Only</span></p>
+                                                                    <button class="btn btn-primary head-button">Buy</button>
+                                                                    <p></p>
+                                                                </div>
+                                                            </div>
+
+
+
+
+
+                                                            <div class="col-12">
+                                                                <div class="headphone shadow  text-center">
+                                                                    <img src="https://m.media-amazon.com/images/I/61LB+d0vheL._AC_UY327_FMwebp_QL65_.jpg" class="head-image">
+                                                                    <h1 class="h-heading">OnePlus Nord CE 3 Lite 5G (Chromatic Gray, 8GB RAM, 128GB Storage</h1>
+                                                                    <p class="h-para">Offer Rs.<span class="h-offer">22,000</span></p>
+                                                                    <p class="h-actual-price">Rs.15,326 <span class="he">Only</span></p>
+                                                                    <button class="btn btn-primary head-button" onclick="window.location.href='https://www.amazon.in/OnePlus-Nord-Chromatic-128GB-Storage/dp/B0BY8MCQ9S/ref=sr_1_8?crid=4OPS3SYN1OK0&dib=eyJ2IjoiMSJ9.YFHwfIh7GPJJ09bm1bBID5DZjH4LVzJf6rdDRuzTRtKrpBdTKd4nwekOptTD7DjnU9Ksd8984r3PbEpHuQ1nHGIu9pqFLJ5gcqv6uMgdq5Hir_0nOoT4IUNPHUQezB97YMxwlJGSxKFhKkY28fMdaHqqSst2NzwqhZYKpR0eA0O-ECCYGwiYStBooRkVOLsq_fVSmFD7Ri5GycKsu6iR-NJ8FD-5cOHhPjbbqzon9Oo.n_0RjCf5nnmjmQ_BSkvAauKq21-u6Ab4Wzj1um57ElQ&dib_tag=se&keywords=mobile&qid=1735594112&sprefix=mobil%2Caps%2C320&sr=8-8';">Buy</button>
+
+                                                                    <p></p>
+                                                                </div>
+                                                            </div>
+
+
+                                                            <div class="col-12">
+                                                                <div class="headphone shadow  text-center">
+                                                                    <img src="https://m.media-amazon.com/images/I/71+QToFrHXL._AC_UY327_FMwebp_QL65_.jpg" class="head-image">
+                                                                    <h1 class="h-heading">Redmi Note 14 5G, 8GB RAM, 128GB Storage, 50MP Camera, 120Hz AMOLED.</h1>
+                                                                    <p class="h-para">Offer Rs.<span class="h-offer">24,000</span></p>
+                                                                    <p class="h-actual-price">Rs.19,999 <span class="he">Only</span></p>
+                                                                    <button class="btn btn-primary head-button">Buy</button>
+                                                                    <p></p>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-12">
+                                                                <div class="headphone shadow  text-center">
+                                                                    <img src="https://m.media-amazon.com/images/I/619VJYWIbXL._AC_UY327_FMwebp_QL65_.jpg" class="head-image">
+                                                                    <h1 class="h-heading">iQOO Z9 Lite 5G, 6GB RAM, 128GB Storage, 50MP AI Camera.</h1>
+                                                                    <p class="h-para">Offer Rs.<span class="h-offer">16,000</span></p>
+                                                                    <p class="h-actual-price">11,499 <span class="he">Only</span></p>
+                                                                    <button class="btn btn-primary head-button" onclick="window.location.href='https://www.amazon.in/iQOO-Storage-Dimensity-Camera-Charger/dp/B07WHQS4LB/ref=sr_1_18?crid=4OPS3SYN1OK0&dib=eyJ2IjoiMSJ9.YFHwfIh7GPJJ09bm1bBID5DZjH4LVzJf6rdDRuzTRtKrpBdTKd4nwekOptTD7DjnU9Ksd8984r3PbEpHuQ1nHGIu9pqFLJ5gcqv6uMgdq5Hir_0nOoT4IUNPHUQezB97YMxwlJGSxKFhKkY28fMdaHqqSst2NzwqhZYKpR0eA0O-ECCYGwiYStBooRkVOLsq_fVSmFD7Ri5GycKsu6iR-NJ8FD-5cOHhPjbbqzon9Oo.n_0RjCf5nnmjmQ_BSkvAauKq21-u6Ab4Wzj1um57ElQ&dib_tag=se&keywords=mobile&qid=1735594112&sprefix=mobil%2Caps%2C320&sr=8-18&th=1';">Buy</button>
+
+                                                                    <p></p>
+                                                                </div>
+                                                            </div>
+
+
+                                                            <div class="col-12">
+                                                                <div class="headphone shadow  text-center">
+                                                                    <img src="https://m.media-amazon.com/images/I/61giwQtR1qL._AC_UY327_FMwebp_QL65_.jpg" class="head-image">
+                                                                    <h1 class="h-heading">iPhone 16 Pro Max, 256GB, 5G, 4K Dolby Vision, Desert Titanium.</h1>
+                                                                    <p class="h-para">Offer Rs.<span class="h-offer">1,44,900</span></p>
+                                                                    <p class="h-actual-price">Rs.1,42,900 <span class="he">Only</span></p>
+                                                                    <button class="btn btn-primary head-button" onclick="window.location.href='https://www.amazon.in/iPhone-16-Pro-Max-256/dp/B0DGHYDZR9/ref=sr_1_3?crid=2MAMH1TJT7W3E&dib=eyJ2IjoiMSJ9.5Li4-Gl-8nmHyKprPoeN0syZh3y9PqGfIcfcVaHwGUi6GFGdGRByZm0QTQvN0taB2-LF6FMUUvkLFpJxsEV1CO3BEBKtu4CFaSlZb3M7hlopw19m2MM2KTT97wOWo9a7PGkL1qXEKWY0hnm_3UKRi3J_6SBlwFWcHg_PZAy4ZdTyJhCyvFRIQQ_4jaXUyMeJwq49zXnm3pQaC4xBeNhWanZwm7fX4RmCnpmDY0m3xIM.qHJWIZOcPmtOaqrdT6P8VlzDI05-KQ5gJZdxfwkIZqA&dib_tag=se&keywords=iphone+16pro+max&nsdOptOutParam=true&qid=1735595774&sprefix=ip%2Caps%2C235&sr=8-3';">Buy</button>
+
+                                                                    <p></p>
+                                                                </div>
+                                                            </div>
+
+
+                                                            <div class="col-12">
+                                                                <div class="headphone shadow  text-center">
+                                                                    <img src="https://m.media-amazon.com/images/I/717sEAdy02L._AC_UY327_FMwebp_QL65_.jpg" class="head-image">
+                                                                    <h1 class="h-heading">realme NARZO N65 5G, 8GB RAM, 128GB Storage, 50MP Camera, 120Hz Display</h1>
+                                                                    <p class="h-para">Offer Rs.<span class="h-offer">Rs.15,498</span></p>
+                                                                    <p class="h-actual-price">Rs.13,498 <span class="he">Only</span></p>
+                                                                    <button class="btn btn-primary head-button">Buy</button>
+                                                                    <p></p>
+                                                                </div>
+                                                            </div>
+
+
+                                                            <div class="col-12">
+                                                                <div class="headphone shadow  text-center">
+                                                                    <img src="https://m.media-amazon.com/images/I/71chuQByj0L._AC_UY327_FMwebp_QL65_.jpg" class="head-image">
+                                                                    <h1 class="h-heading">Vivo X200 Pro 5G, 16GB RAM, 512GB Storage, Titanium Grey.</h1>
+                                                                    <p class="h-para">Offer Rs.<span class="h-offer">98,999 </span></p>
+                                                                    <p class="h-actual-price">Rs.94,999 <span class="he">Only</span></p>
+                                                                    <button class="btn btn-primary head-button" onclick="window.location.href='https://www.amazon.in/Vivo-Titanium-Storage-Additional-Exchange/dp/B07WDJMX16/ref=sr_1_4?crid=14DSHAFUII8B5&dib=eyJ2IjoiMSJ9.RxJR2y03l_MXSWmMcjZSAPOYnIb5Dpd8UGZkbPW2-vFXcXwu_nvJoba7-SUAR6t9fE36U6yzmgygK7JyKAVVpVm0GtUrBTUwYXzEaOXtAe8ErUla6dFO6eXmjDv45IJvWyLU1crBjTPI3mBD3ZiWdL1_lYT59VIDgwHTKwuzzCrK35f9olmKAChOQHIE9H8K8g6fh56hd5rTz0KwIf21nILE9WuWRDO4ik9dXp3P29Y.9325fNcireuM5nUxsUVgzqD5lCmebVooavMOD2iolbU&dib_tag=se&keywords=vivi%2Bx200%2Bpro&nsdOptOutParam=true&qid=1735596203&sprefix=vivi%2Bx200%2Caps%2C231&sr=8-4&th=1';">Buy</button>
+
+                                                                    <p></p>
+                                                                </div>
+                                                            </div>
+
+
+
+
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="but btn btn-secondary" data-dismiss="modal">Close</button>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="c col-12 col-md-6">
+
+                            <div class="product-image4 d-flex flex-column justify-content-end p-3 pb-4">
+                                <div class="product-content ">
+                                    <h1 class="product-heading">Home Appliance</h1>
+                                    <p class="product-para">Explore different section of home appliances...</p>
+                                    <button type="button" class="but" data-toggle="modal" data-target="#HomeApplianceModal">
+                                        View Details
+                                    </button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="HomeApplianceModal" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="staticBackdropLabel">Home Appliances</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="bg">
+                                                        <div class="row">
+                                                            <div class="col-12">
+                                                                <div class="headphone shadow  text-center">
+                                                                    <img src="https://m.media-amazon.com/images/I/51HKajX7fJL._AC_UL480_FMwebp_QL65_.jpg" class="head-image">
+                                                                    <h1 class="h-heading">Borosil Chef Delite 300W Electric Chopper, Twin Blades, 600ml Bowl.</h1>
+                                                                    <p class="h-para">Offer Rs.<span class="h-offer">2,200</span></p>
+                                                                    <p class="h-actual-price">Rs.1,989 <span class="he">Only</span></p>
+                                                                    <button class="btn btn-primary head-button">Buy</button>
+
+                                                                    <p></p>
+
+
+                                                                </div>
+                                                            </div>
+
+
+                                                            <div class="col-12">
+                                                                <div class="headphone shadow  text-center">
+                                                                    <img src="https://m.media-amazon.com/images/I/51x15vgzI2L._AC_UL480_FMwebp_QL65_.jpg" class="head-image">
+                                                                    <h1 class="h-heading">Pigeon 2-Slice Auto Pop-up Toaster, 750W, Black.</h1>
+                                                                    <p class="h-para">Offer Rs.<span class="h-offer">1,199</span></p>
+                                                                    <p class="h-actual-price">Rs.1,099 <span class="he">Only</span></p>
+                                                                    <button class="btn btn-primary head-button">Buy</button>
+                                                                    <p></p>
+                                                                </div>
+                                                            </div>
+
+
+
+
+
+                                                            <div class="col-12">
+                                                                <div class="headphone shadow  text-center">
+                                                                    <img src="https://m.media-amazon.com/images/I/517nDmj1i8L._AC_UL480_FMwebp_QL65_.jpg" class="head-image">
+                                                                    <h1 class="h-heading">Pigeon Mio Nonstick Cookware Set, 8 Pieces, Red, Non-Induction Base.</h1>
+                                                                    <p class="h-para">Offer Rs.<span class="h-offer">1,299</span></p>
+                                                                    <p class="h-actual-price">Rs.1,099 <span class="he">Only</span></p>
+                                                                    <button class="btn btn-primary head-button" onclick="window.location.href='https://www.amazon.in/OnePlus-Nord-Chromatic-128GB-Storage/dp/B0BY8MCQ9S/ref=sr_1_8?crid=4OPS3SYN1OK0&dib=eyJ2IjoiMSJ9.YFHwfIh7GPJJ09bm1bBID5DZjH4LVzJf6rdDRuzTRtKrpBdTKd4nwekOptTD7DjnU9Ksd8984r3PbEpHuQ1nHGIu9pqFLJ5gcqv6uMgdq5Hir_0nOoT4IUNPHUQezB97YMxwlJGSxKFhKkY28fMdaHqqSst2NzwqhZYKpR0eA0O-ECCYGwiYStBooRkVOLsq_fVSmFD7Ri5GycKsu6iR-NJ8FD-5cOHhPjbbqzon9Oo.n_0RjCf5nnmjmQ_BSkvAauKq21-u6Ab4Wzj1um57ElQ&dib_tag=se&keywords=mobile&qid=1735594112&sprefix=mobil%2Caps%2C320&sr=8-8';">Buy</button>
+
+                                                                    <p></p>
+                                                                </div>
+                                                            </div>
+
+
+                                                            <div class="col-12">
+                                                                <div class="headphone shadow  text-center">
+                                                                    <img src="https://m.media-amazon.com/images/I/811E4hFuG0L._AC_UL480_FMwebp_QL65_.jpg" class="head-image">
+                                                                    <h1 class="h-heading">Tosaa Aluminium 12-Cavity Appam Patra, Steel Lid, Wooden Picker.</h1>
+                                                                    <p class="h-para">Offer Rs.<span class="h-offer">510</span></p>
+                                                                    <p class="h-actual-price">Rs.308 <span class="he">Only</span></p>
+                                                                    <button class="btn btn-primary head-button">Buy</button>
+                                                                    <p></p>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-12">
+                                                                <div class="headphone shadow  text-center">
+                                                                    <img src="https://m.media-amazon.com/images/I/618hSd40v6L._AC_UL480_FMwebp_QL65_.jpg" class="head-image">
+                                                                    <h1 class="h-heading">Panasonic 20L Solo Microwave Oven, Auto Cook, Epoxy Gray Cavity.</h1>
+                                                                    <p class="h-para">Offer Rs.<span class="h-offer">6,299</span></p>
+                                                                    <p class="h-actual-price">5,690 <span class="he">Only</span></p>
+                                                                    <button class="btn btn-primary head-button" onclick="window.location.href='https://www.amazon.in/Panasonic-Solo-Microwave-NN-SM25JBFDG-Black/dp/B08DYCWC9R/ref=sr_1_117_sspa?crid=10FHCYX6OGKZ5&dib=eyJ2IjoiMSJ9.u4rpEoyGgqX6HDJIhoan8mdwhYgYgcxTXHccO-ZlEUt853EKYzpw6ao6O_uXoaf22ZoQNe0bULOxptOHN4tPicTxsXrE9f_1tNUcRxs4qkrQNAhwYSyQqfYchMErjtGIgC_U-GT5ZM6M2MG31jnDd300hGYcIOzkbBb3M8aW8OXwXeFXDPRITd03Fxl1sd7lzxznrTO0YIIHjRaMI_xBYU_J4MgYs50Y2QiwKeMvjVp56AG_B2Usl7-NJ6e5E6wcifKj4nwJM9xr0tNG3j_8Bnq77I3qTMyYEObnJAuF3C0.zwTQa9y_Z-Frbslj1piFv_lUYrypvAi5XgZN0hG12fc&dib_tag=se&keywords=home+appliances+all+items&qid=1735597269&sprefix=home+app%2Caps%2C266&sr=8-117-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1';">Buy</button>
+
+                                                                    <p></p>
+                                                                </div>
+                                                            </div>
+
+
+                                                            <div class="col-12">
+                                                                <div class="headphone shadow  text-center">
+                                                                    <img src="https://m.media-amazon.com/images/I/61Hk3-1fgLL._AC_UL480_FMwebp_QL65_.jpg" class="head-image">
+                                                                    <h1 class="h-heading">BINSBARRY Humidifier, Aroma Diffuser, Ultrasonic, Cool Mist, Multicolour.</h1>
+                                                                    <p class="h-para">Offer Rs.<span class="h-offer">599</span></p>
+                                                                    <p class="h-actual-price">Rs. 499<span class="he">Only</span></p>
+                                                                    <button class="btn btn-primary head-button" onclick="window.location.href='https://www.amazon.in/BINSBARRY-Humidifier-Ultrasonic-Essential-Multicolour/dp/B0DR8MHQMF/ref=sr_1_119_sspa?crid=10FHCYX6OGKZ5&dib=eyJ2IjoiMSJ9.u4rpEoyGgqX6HDJIhoan8mdwhYgYgcxTXHccO-ZlEUt853EKYzpw6ao6O_uXoaf22ZoQNe0bULOxptOHN4tPicTxsXrE9f_1tNUcRxs4qkrQNAhwYSyQqfYchMErjtGIgC_U-GT5ZM6M2MG31jnDd300hGYcIOzkbBb3M8aW8OXwXeFXDPRITd03Fxl1sd7lzxznrTO0YIIHjRaMI_xBYU_J4MgYs50Y2QiwKeMvjVp56AG_B2Usl7-NJ6e5E6wcifKj4nwJM9xr0tNG3j_8Bnq77I3qTMyYEObnJAuF3C0.zwTQa9y_Z-Frbslj1piFv_lUYrypvAi5XgZN0hG12fc&dib_tag=se&keywords=home+appliances+all+items&qid=1735597269&sprefix=home+app%2Caps%2C266&sr=8-119-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1';">Buy</button>
+
+                                                                    <p></p>
+                                                                </div>
+                                                            </div>
+
+
+                                                            <div class="col-12">
+                                                                <div class="headphone shadow  text-center">
+                                                                    <img src="https://m.media-amazon.com/images/I/610kjQfYtsL._AC_UL480_FMwebp_QL65_.jpg" class="head-image">
+                                                                    <h1 class="h-heading">AGARO Rapid 1000W Vacuum Cleaner, Wet & Dry, 10L, Red.</h1>
+                                                                    <p class="h-para">Offer Rs.<span class="h-offer">Rs.3,699</span></p>
+                                                                    <p class="h-actual-price">Rs.3,499 <span class="he">Only</span></p>
+                                                                    <button class="btn btn-primary head-button">Buy</button>
+                                                                    <p></p>
+                                                                </div>
+                                                            </div>
+
+
+                                                            <div class="col-12">
+                                                                <div class="headphone shadow  text-center">
+                                                                    <img src="https://m.media-amazon.com/images/I/61ufDjaATIL._AC_UL480_FMwebp_QL65_.jpg" class="head-image">
+                                                                    <h1 class="h-heading">USHA Ei 2802 1000W Dry Iron, Non-Stick Soleplate, White.</h1>
+                                                                    <p class="h-para">Offer Rs.<span class="h-offer">749 </span></p>
+                                                                    <p class="h-actual-price">Rs.549 <span class="he">Only</span></p>
+                                                                    <button class="btn btn-primary head-button" onclick="window.location.href='https://www.amazon.in/Ultra-Light-Weight-Non-Stick-Soleplate/dp/B014MBU9JO/ref=sr_1_266?crid=10FHCYX6OGKZ5&dib=eyJ2IjoiMSJ9.LBtpu7nRNSRNKDhehGlUaj2npeyHDyLFWmLX8fQvQDIjVjjxuKIT3JHfvoTi5joiZhmmMO4SkMGC83HBokhilXVs9fWtYclhplb6XfB3idEYFkCOxrdCR1l_Qw_jT8umwgCo1vE-vGUO3YliuRL0yNeyhjqiwmt02HysppB8OHinzCGPxJd94e-gSe8sZ9Ea8a2_5nDsvTK3q1Ughgcx8Zfo37SE5UIsffKsTMVo8AofQJYyjHj4Yj94xJiOSEF4tsgUwodT2wLWKlk5lhq6cl_FOIBWEFnGWBEgRRvqFdIT6hwJ2c-WD5M1QJcftWii-R5rjwXmDuPOZ3jUyKHNRcqp0vYVp9NatXSn_FpqZKOjOdpbDqeUOEbz8PVxeJatuyMqJHp6exYAvJ06DfcdepU8KljQoOtXltgYzqSWYyvOhJxaSBzYTmzsVERVlBpU.ZiBTy6iqkFh3TdNmzGvhb9TJDy4e34iw7POFM542zQY&dib_tag=se&keywords=home%2Bappliances%2Ball%2Bitems&qid=1735597743&sprefix=home%2Bapp%2Caps%2C266&sr=8-266&th=1';">Buy</button>
+
+                                                                    <p></p>
+                                                                </div>
+                                                            </div>
+
+
+
+
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="but btn btn-secondary" data-dismiss="modal">Close</button>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+
+
+
+                        <div class="c col-12 col-md-6">
+
+                            <div class="product-image5 d-flex flex-column justify-content-end p-3 pb-4">
+                                <div class="product-content ">
+                                    <h1 class="product-heading">Grocery store</h1>
+                                    <p class="product-para">Explore all grocery products...</p>
+                                    <button type="button" class="but" data-toggle="modal" data-target="#GroceryModal">
+                                        View Details
+                                    </button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="GroceryModal" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="staticBackdropLabel">View Grocery </h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="bg">
+                                                        <div class="row">
+                                                            <div class="col-12">
+                                                                <div class="headphone shadow  text-center">
+                                                                    <img src="https://m.media-amazon.com/images/I/61Nge+2s2fL._AC_UL480_FMwebp_QL65_.jpg" class="head-image">
+                                                                    <h1 class="h-heading">MAGGI 2-Minute Masala Noodles, Iron-Rich, 70g x 12 Pack..</h1>
+                                                                    <p class="h-para">Offer Rs.<span class="h-offer">190</span></p>
+                                                                    <p class="h-actual-price">Rs.153 <span class="he">Only</span></p>
+                                                                    <button class="btn btn-primary head-button">Buy</button>
+
+                                                                    <p></p>
+
+
+                                                                </div>
+                                                            </div>
+
+
+                                                            <div class="col-12">
+                                                                <div class="headphone shadow  text-center">
+                                                                    <img src="https://m.media-amazon.com/images/I/614mm2hYHyL._AC_UL480_FMwebp_QL65_.jpg" class="head-image">
+                                                                    <h1 class="h-heading">Tata Salt 1kg, Iodised, Free Flowing, Vacuum Evaporated.</h1>
+                                                                    <p class="h-para">Offer Rs.<span class="h-offer"> 50</span></p>
+                                                                    <p class="h-actual-price">Rs.35 <span class="he">Only</span></p>
+                                                                    <button class="btn btn-primary head-button">Buy</button>
+                                                                    <p></p>
+                                                                </div>
+                                                            </div>
+
+
+
+
+
+                                                            <div class="col-12">
+                                                                <div class="headphone shadow  text-center">
+                                                                    <img src="https://m.media-amazon.com/images/I/71xkMu6uJtL._AC_UL480_FMwebp_QL65_.jpg" class="head-image">
+                                                                    <h1 class="h-heading">Colgate MaxFresh Red Gel Toothpaste, 300g (150g x 2), Spicy Fresh.</h1>
+                                                                    <p class="h-para">Offer Rs.<span class="h-offer"> 230</span></p>
+                                                                    <p class="h-actual-price">Rs.197 <span class="he">Only</span></p>
+                                                                    <button class="btn btn-primary head-button" onclick="window.location.href='https://www.amazon.in/Flowing-Iodised-Namak-Vacuum-Evaporated/dp/B07575FPC3/ref=sr_1_5?crid=GZO70JHSXJ0M&dib=eyJ2IjoiMSJ9.nNRpf9TwfZjZBvbrI3NWf2HL3cfizBQAvp2EXt_5gfI_hXxq-KREkXfWVrSVpsvxHQdgF0n_CO4PCNFqjdF6YeuJ27RRs51n6YCyq-XZIAhsIg_cyNk5O2Ja_4bl6bE82MrIjfDnnaRMWs0YArkusBgRlj81f9_9Vn7IV6YZLY6lhcTPo1UBEc0cG07d55qANjQ5ohRRJXyCrphKcP3IIlNoFkUhs3lxB9gs11rD7sWVjMEOgSNMPJg3Q6YAcEUUJmmAVufWDQZTEIDAS9RA4X5qgFBSewGUZ2WCTztbBXUNf95nMC7XzmCcOoBrB1MneQ5BDMcwSeNEPAcbN1QYjAl3Jh-vZIHAN47rtCgRjqj6TZhWaqkRc200o6oCz1tRaPhPudX8xJeT2LAmF0L03tND1MeY1BMMvgbVpK5mmhdVVzoRBQrzHJSXzle3fCrh.8aWGBs9Z8hiw12rJMleQhWGN7815TzkLiM6SxDnlxUo&dib_tag=se&keywords=Grocery+items&qid=1735656108&sprefix=grocery+item%2Caps%2C216&sr=8-5';">Buy</button>
+
+                                                                    <p></p>
+                                                                </div>
+                                                            </div>
+
+
+                                                            <div class="col-12">
+                                                                <div class="headphone shadow  text-center">
+                                                                    <img src="https://m.media-amazon.com/images/I/71DySGgS2pL._AC_UL480_FMwebp_QL65_.jpg" class="head-image">
+                                                                    <h1 class="h-heading">Odonil Bathroom Air Freshener, 192g, Mixed Fragrances, Lasts 30 Days.</h1>
+                                                                    <p class="h-para">Offer Rs.<span class="h-offer"> 210</span></p>
+                                                                    <p class="h-actual-price">Rs.163 <span class="he">Only</span></p>
+                                                                    <button class="btn btn-primary head-button">Buy</button>
+                                                                    <p></p>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-12">
+                                                                <div class="headphone shadow  text-center">
+                                                                    <img src="https://m.media-amazon.com/images/I/61fV8xIUXlL._AC_UL480_FMwebp_QL65_.jpg" class="head-image">
+                                                                    <h1 class="h-heading">Fortune Chakki Fresh Atta, 5 kg, 100% Atta 0% Maida</h1>
+                                                                    <p class="h-para">Offer Rs.<span class="h-offer"> 390</span></p>
+                                                                    <p class="h-actual-price">Rs. 227 <span class="he">Only</span></p>
+                                                                    <button class="btn btn-primary head-button" onclick="window.location.href='https://www.amazon.in/Fortune-Chakki-Fresh-Atta-5kg/dp/B07CBKR1L7/ref=sr_1_55_f3_0o_fs?crid=GZO70JHSXJ0M&dib=eyJ2IjoiMSJ9.rqG4nqHOcUMm5qosT-0CSf3xWDGpmHpOymbTaJWORX9MXG5dRF72cLqnzMlnW0BN17QakBDlshi0l5xTb7gOijhAK_5DOShmZPrGq6B0lMJc6lavrsym2myF8G1MyUtLufri3fltyKH1_5zd-OdgJfhpAr98zoD0pXmZnjJHqTnqNn5GZm6h6yEcJM64ZNRlU-pu3lHiyltltApSXkyk0TQRkWmpA2QspgqGSsqIDEGnSOd8fdyGUxY3dN2aLmznolbnIe-HKCHoNhxThfXWHfhAETSEWSyK_xjGBziKt9TyfaWv-HUYHESwCv74YcByn1bvT0hMa5YiX4SSKVccAHkDUOBUashPNBV1CIMIxKUJ4SSxBIplqRMkN2pptvlF3eQZroyXh9c9miBPV_wEYMk-Pdu3hsetQXz0yP76IIaJLd2fLKEdbTjuAbcay7zN.QHdBULjUDfj6h7JhH7jwViwCfrsdeD3OMLR8d8zyA4A&dib_tag=se&keywords=Grocery+items&qid=1735657483&sprefix=grocery+item%2Caps%2C216&sr=8-55';">Buy</button>
+
+                                                                    <p></p>
+                                                                </div>
+                                                            </div>
+
+
+                                                            <div class="col-12">
+                                                                <div class="headphone shadow  text-center">
+                                                                    <img src="https://m.media-amazon.com/images/I/51XQjz9YN4L._AC_UL480_FMwebp_QL65_.jpg" class="head-image">
+                                                                    <h1 class="h-heading">Dettol Antiseptic Liquid, 1L, First Aid, Disinfection, Hygiene</h1>
+                                                                    <p class="h-para">Offer Rs.<span class="h-offer">599</span></p>
+                                                                    <p class="h-actual-price">Rs. 364 <span class="he">Only</span></p>
+                                                                    <button class="btn btn-primary head-button" onclick="window.location.href='https://www.amazon.in/BINSBARRY-Humidifier-Ultrasonic-Essential-Multicolour/dp/B0DR8MHQMF/ref=sr_1_119_sspa?crid=10FHCYX6OGKZ5&dib=eyJ2IjoiMSJ9.u4rpEoyGgqX6HDJIhoan8mdwhYgYgcxTXHccO-ZlEUt853EKYzpw6ao6O_uXoaf22ZoQNe0bULOxptOHN4tPicTxsXrE9f_1tNUcRxs4qkrQNAhwYSyQqfYchMErjtGIgC_U-GT5ZM6M2MG31jnDd300hGYcIOzkbBb3M8aW8OXwXeFXDPRITd03Fxl1sd7lzxznrTO0YIIHjRaMI_xBYU_J4MgYs50Y2QiwKeMvjVp56AG_B2Usl7-NJ6e5E6wcifKj4nwJM9xr0tNG3j_8Bnq77I3qTMyYEObnJAuF3C0.zwTQa9y_Z-Frbslj1piFv_lUYrypvAi5XgZN0hG12fc&dib_tag=se&keywords=home+appliances+all+items&qid=1735597269&sprefix=home+app%2Caps%2C266&sr=8-119-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1';">Buy</button>
+
+                                                                    <p></p>
+                                                                </div>
+                                                            </div>
+
+
+                                                            <div class="col-12">
+                                                                <div class="headphone shadow  text-center">
+                                                                    <img src="https://m.media-amazon.com/images/I/81C2NKTF5BL._AC_UL480_FMwebp_QL65_.jpg" class="head-image">
+                                                                    <h1 class="h-heading">Sunfeast Dark Fantasy Yumfills, 242g/253g, Rich Chocolate Pie Cake.</h1>
+                                                                    <p class="h-para">Offer Rs.<span class="h-offer">Rs.100</span></p>
+                                                                    <p class="h-actual-price">Rs. 85 <span class="he">Only</span></p>
+                                                                    <button class="btn btn-primary head-button">Buy</button>
+                                                                    <p></p>
+                                                                </div>
+                                                            </div>
+
+
+                                                            <div class="col-12">
+                                                                <div class="headphone shadow  text-center">
+                                                                    <img src="https://m.media-amazon.com/images/I/71ITugomvFL._AC_UL480_FMwebp_QL65_.jpg" class="head-image">
+                                                                    <h1 class="h-heading">India Gate Basmati Rice Bag, Mogra, 5kg (Broken Rice)</h1>
+                                                                    <p class="h-para">Offer Rs.<span class="h-offer">450 </span></p>
+                                                                    <p class="h-actual-price">Rs.344 <span class="he">Only</span></p>
+                                                                    <button class="btn btn-primary head-button" onclick="window.location.href='https://www.amazon.in/Ultra-Light-Weight-Non-Stick-Soleplate/dp/B014MBU9JO/ref=sr_1_266?crid=10FHCYX6OGKZ5&dib=eyJ2IjoiMSJ9.LBtpu7nRNSRNKDhehGlUaj2npeyHDyLFWmLX8fQvQDIjVjjxuKIT3JHfvoTi5joiZhmmMO4SkMGC83HBokhilXVs9fWtYclhplb6XfB3idEYFkCOxrdCR1l_Qw_jT8umwgCo1vE-vGUO3YliuRL0yNeyhjqiwmt02HysppB8OHinzCGPxJd94e-gSe8sZ9Ea8a2_5nDsvTK3q1Ughgcx8Zfo37SE5UIsffKsTMVo8AofQJYyjHj4Yj94xJiOSEF4tsgUwodT2wLWKlk5lhq6cl_FOIBWEFnGWBEgRRvqFdIT6hwJ2c-WD5M1QJcftWii-R5rjwXmDuPOZ3jUyKHNRcqp0vYVp9NatXSn_FpqZKOjOdpbDqeUOEbz8PVxeJatuyMqJHp6exYAvJ06DfcdepU8KljQoOtXltgYzqSWYyvOhJxaSBzYTmzsVERVlBpU.ZiBTy6iqkFh3TdNmzGvhb9TJDy4e34iw7POFM542zQY&dib_tag=se&keywords=home%2Bappliances%2Ball%2Bitems&qid=1735597743&sprefix=home%2Bapp%2Caps%2C266&sr=8-266&th=1';">Buy</button>
+
+                                                                    <p></p>
+                                                                </div>
+                                                            </div>
+
+
+
+
+                                                        </div>
+
+                                                    </div>
+
+
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="but btn btn-secondary" data-dismiss="modal">Close</button>
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+
+
+
+
+
+                            </div>
+
+                        </div>
+
+
+
+
+                        <div class="c col-12 col-md-6">
+
+                            <div class="product-image6 d-flex flex-column justify-content-end p-3 pb-4">
+                                <div class="product-content ">
+                                    <h1 class="product-heading">Watches</h1>
+                                    <p class="product-para">Explore varites of watches</p>
+                                    <button type="button" class="but" data-toggle="modal" data-target="#WatchesModal">
+                                        View Details
+                                    </button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="WatchesModal" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="WatchesModal" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="#WatchesModal">Watches</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="bg">
+                                                        <div class="row">
+                                                            <div class="col-12">
+                                                                <div class="headphone shadow  text-center">
+                                                                    <img src="https://m.media-amazon.com/images/I/61TapeOXotL._AC_UL480_FMwebp_QL65_.jpg" class="head-image">
+                                                                    <h1 class="h-heading">Noise Twist Smart Watch, Bluetooth Calling, 1.38" Display, Heart Rate Monitor.</h1>
+                                                                    <p class="h-para">Offer Rs.<span class="h-offer">1500</span></p>
+                                                                    <p class="h-actual-price">Rs.1399 <span class="he">Only</span></p>
+                                                                    <button class="btn btn-primary head-button">Buy</button>
+
+                                                                    <p></p>
+
+
+                                                                </div>
+                                                            </div>
+
+
+                                                            <div class="col-12">
+                                                                <div class="headphone shadow  text-center">
+                                                                    <img src="https://m.media-amazon.com/images/I/71Gzlr6C90L._AC_UL480_FMwebp_QL65_.jpg" class="head-image">
+                                                                    <h1 class="h-heading">OLEVS Men's Watch, Analog Quartz, Moon Phase, Chronograph, Waterproof.</h1>
+                                                                    <p class="h-para">Offer Rs.<span class="h-offer"> 3,520</span></p>
+                                                                    <p class="h-actual-price">Rs. 3,420 <span class="he">Only</span></p>
+                                                                    <button class="btn btn-primary head-button">Buy</button>
+                                                                    <p></p>
+                                                                </div>
+                                                            </div>
+
+
+
+
+
+                                                            <div class="col-12">
+                                                                <div class="headphone shadow  text-center">
+                                                                    <img src="https://m.media-amazon.com/images/I/61rmkmqD5VL._AC_UL480_FMwebp_QL65_.jpg" class="head-image">
+                                                                    <h1 class="h-heading">Fire-Boltt Ninja Call Pro Plus, 1.83" Display, Bluetooth Calling, AI Voice.</h1>
+                                                                    <p class="h-para">Offer Rs.<span class="h-offer"> 1,499</span></p>
+                                                                    <p class="h-actual-price">Rs 1,399 <span class="he">Only</span></p>
+                                                                    <button class="btn btn-primary head-button" onclick="window.location.href='https://www.amazon.in/Flowing-Iodised-Namak-Vacuum-Evaporated/dp/B07575FPC3/ref=sr_1_5?crid=GZO70JHSXJ0M&dib=eyJ2IjoiMSJ9.nNRpf9TwfZjZBvbrI3NWf2HL3cfizBQAvp2EXt_5gfI_hXxq-KREkXfWVrSVpsvxHQdgF0n_CO4PCNFqjdF6YeuJ27RRs51n6YCyq-XZIAhsIg_cyNk5O2Ja_4bl6bE82MrIjfDnnaRMWs0YArkusBgRlj81f9_9Vn7IV6YZLY6lhcTPo1UBEc0cG07d55qANjQ5ohRRJXyCrphKcP3IIlNoFkUhs3lxB9gs11rD7sWVjMEOgSNMPJg3Q6YAcEUUJmmAVufWDQZTEIDAS9RA4X5qgFBSewGUZ2WCTztbBXUNf95nMC7XzmCcOoBrB1MneQ5BDMcwSeNEPAcbN1QYjAl3Jh-vZIHAN47rtCgRjqj6TZhWaqkRc200o6oCz1tRaPhPudX8xJeT2LAmF0L03tND1MeY1BMMvgbVpK5mmhdVVzoRBQrzHJSXzle3fCrh.8aWGBs9Z8hiw12rJMleQhWGN7815TzkLiM6SxDnlxUo&dib_tag=se&keywords=Grocery+items&qid=1735656108&sprefix=grocery+item%2Caps%2C216&sr=8-5';">Buy</button>
+
+                                                                    <p></p>
+                                                                </div>
+                                                            </div>
+
+
+                                                            <div class="col-12">
+                                                                <div class="headphone shadow  text-center">
+                                                                    <img src="https://m.media-amazon.com/images/I/81rq9k4gh+L._AC_UL480_FMwebp_QL65_.jpg" class="head-image">
+                                                                    <h1 class="h-heading">Retro Steampunk Skeleton Automatic Diamond Mechanical Watch, Elegant Design.</h1>
+                                                                    <p class="h-para">Offer Rs.<span class="h-offer"> 4,799</span></p>
+                                                                    <p class="h-actual-price">Rs. 4,599 <span class="he">Only</span></p>
+                                                                    <button class="btn btn-primary head-button">Buy</button>
+                                                                    <p></p>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-12">
+                                                                <div class="headphone shadow  text-center">
+                                                                    <img src="https://m.media-amazon.com/images/I/81pS0amSrJL._AC_UY327_FMwebp_QL65_.jpg" class="head-image">
+                                                                    <h1 class="h-heading">Boult Crown Smart Watch: 1.95'' Display, BT Calling, 900 Nits Brightness.</h1>
+                                                                    <p class="h-para">Offer Rs.<span class="h-offer"> 1400</span></p>
+                                                                    <p class="h-actual-price">Rs.1299 <span class="he">Only</span></p>
+                                                                    <button class="btn btn-primary head-button" onclick="window.location.href='https://www.amazon.in/Boult-Bluetooth-Brightness-Assistant-Monitoring/dp/B0DM5KP711/ref=sr_1_12_sspa?crid=3PP1AZMXUD0H6&dib=eyJ2IjoiMSJ9.9b_bCbH-SUqPUySCPMoU4uqIq0yC6iAg8Zz87p_9cGHF6w-NEKU_-9z6rsBdfmI7mM3l7_b-09ctkuHnTaji4GvxY25_vUXqn3p3wKb458na04kooLl69--BDs3yCES_QUHajYRYSnbDKaC36wVq5ock9zRhNVZneHuyvjiwJYBnNhX5EM4ew_Tuxptmnvae9i4_KePB_ADW7MQn-U4zAa8WMpnw163O0Np_NDKoDic.Pv3M6fN6JKZRHY_2fW_ujKAH8skZ53nGOvZ5Cld0EfI&dib_tag=se&keywords=smartwatch&qid=1735662590&sprefix=smartwatch%2Caps%2C260&sr=8-12-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1';">Buy</button>
+
+                                                                    <p></p>
+                                                                </div>
+                                                            </div>
+
+
+                                                            <div class="col-12">
+                                                                <div class="headphone shadow  text-center">
+                                                                    <img src="https://m.media-amazon.com/images/I/718YrDupr0L._AC_UY327_FMwebp_QL65_.jpg" class="head-image">
+                                                                    <h1 class="h-heading">OnePlus Watch 2: Wear OS4, W5 Chipset, 100hr Battery, AMOLED Display.</h1>
+                                                                    <p class="h-para">Offer Rs.<span class="h-offer">24,999</span></p>
+                                                                    <p class="h-actual-price">Rs.22,999 <span class="he">Only</span></p>
+                                                                    <button class="btn btn-primary head-button" onclick="window.location.href='https://www.amazon.in/BINSBARRY-Humidifier-Ultrasonic-Essential-Multicolour/dp/B0DR8MHQMF/ref=sr_1_119_sspa?crid=10FHCYX6OGKZ5&dib=eyJ2IjoiMSJ9.u4rpEoyGgqX6HDJIhoan8mdwhYgYgcxTXHccO-ZlEUt853EKYzpw6ao6O_uXoaf22ZoQNe0bULOxptOHN4tPicTxsXrE9f_1tNUcRxs4qkrQNAhwYSyQqfYchMErjtGIgC_U-GT5ZM6M2MG31jnDd300hGYcIOzkbBb3M8aW8OXwXeFXDPRITd03Fxl1sd7lzxznrTO0YIIHjRaMI_xBYU_J4MgYs50Y2QiwKeMvjVp56AG_B2Usl7-NJ6e5E6wcifKj4nwJM9xr0tNG3j_8Bnq77I3qTMyYEObnJAuF3C0.zwTQa9y_Z-Frbslj1piFv_lUYrypvAi5XgZN0hG12fc&dib_tag=se&keywords=home+appliances+all+items&qid=1735597269&sprefix=home+app%2Caps%2C266&sr=8-119-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1';">Buy</button>
+
+                                                                    <p></p>
+                                                                </div>
+                                                            </div>
+
+
+                                                            <div class="col-12">
+                                                                <div class="headphone shadow  text-center">
+                                                                    <img src="https://m.media-amazon.com/images/I/61sl1QCb77L._AC_UY327_FMwebp_QL65_.jpg" class="head-image">
+                                                                    <h1 class="h-heading">Fastrack Xtreme PRO: 1.43" AMOLED, BT Calling, AI Assistant, 5-day Battery.</h1>
+                                                                    <p class="h-para">Offer Rs.<span class="h-offer">Rs.3,999</span></p>
+                                                                    <p class="h-actual-price">Rs. 4,999 <span class="he">Only</span></p>
+                                                                    <button class="btn btn-primary head-button">Buy</button>
+                                                                    <p></p>
+                                                                </div>
+                                                            </div>
+
+
+                                                            <div class="col-12">
+                                                                <div class="headphone shadow  text-center">
+                                                                    <img src="https://m.media-amazon.com/images/I/61cO69LsMNL._AC_UL480_FMwebp_QL65_.jpg" class="head-image">
+                                                                    <h1 class="h-heading">OLEVS Men's Watch: Stainless Steel, Analog Quartz, Day-Date, Luxury, Waterproof, Luminous.</h1>
+                                                                    <p class="h-para">Offer Rs.<span class="h-offer"> 3,820</span></p>
+                                                                    <p class="h-actual-price">Rs. 3,420 <span class="he">Only</span></p>
+                                                                    <button class="btn btn-primary head-button" onclick="window.location.href='https://www.amazon.in/Ultra-Light-Weight-Non-Stick-Soleplate/dp/B014MBU9JO/ref=sr_1_266?crid=10FHCYX6OGKZ5&dib=eyJ2IjoiMSJ9.LBtpu7nRNSRNKDhehGlUaj2npeyHDyLFWmLX8fQvQDIjVjjxuKIT3JHfvoTi5joiZhmmMO4SkMGC83HBokhilXVs9fWtYclhplb6XfB3idEYFkCOxrdCR1l_Qw_jT8umwgCo1vE-vGUO3YliuRL0yNeyhjqiwmt02HysppB8OHinzCGPxJd94e-gSe8sZ9Ea8a2_5nDsvTK3q1Ughgcx8Zfo37SE5UIsffKsTMVo8AofQJYyjHj4Yj94xJiOSEF4tsgUwodT2wLWKlk5lhq6cl_FOIBWEFnGWBEgRRvqFdIT6hwJ2c-WD5M1QJcftWii-R5rjwXmDuPOZ3jUyKHNRcqp0vYVp9NatXSn_FpqZKOjOdpbDqeUOEbz8PVxeJatuyMqJHp6exYAvJ06DfcdepU8KljQoOtXltgYzqSWYyvOhJxaSBzYTmzsVERVlBpU.ZiBTy6iqkFh3TdNmzGvhb9TJDy4e34iw7POFM542zQY&dib_tag=se&keywords=home%2Bappliances%2Ball%2Bitems&qid=1735597743&sprefix=home%2Bapp%2Caps%2C266&sr=8-266&th=1';">Buy</button>
+
+                                                                    <p></p>
+                                                                </div>
+                                                            </div>
+
+
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="but btn btn-secondary" data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="sectionNewYearOffer">
+            <div class="ss pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 order-md-1 d-md-none ">
+                            <div class="gg text-center">
+                                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-offers-special-img.png" class="first-image text-center">
+
+                                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-offers-appliances-img.png" class="second-image">
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-12 order-md-2">
+                            <div class="details text-center">
+                                <h1 class="content-heading ">BEST NEW YEAR SPECIAL OFFERS</h1>
+                                <P class="content-para">Best time to buy. Save upto <span class="ii">70% cash</span></P>
+
+                                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-offers-credit-card-img.png" class="img-discount">
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-12 order-1 d-md-block d-none">
+                            <div class="g  d-flex flex-row">
+                                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-offers-special-img.png" class="first-imagee text-center">
+
+                                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-offers-appliances-img.png" class="second-imagee">
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="TrendingBlogs">
+            <div class="pt-4 sectionBlogSection">
+                <div class="container">
+                    <div class="row">
+                        <div class=" col-12">
+                            <h1 class="blog-heading-title">Trending Blogs</h1>
+                        </div>
+
+                        <div class="cc pt-3 col-12 col-md-6">
+                            <div class="full shadow">
+                                <div class="image-content">
+                                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-trending-blogs-1-img.png" class="blog-first-image">
+                                </div>
+                                <div class="blog-content">
+                                    <p class="blog-para1">Foundation Pen</p>
+                                    <h1 class="blog-heading">Guide to Fountain Pen Nibs</h1>
+                                    <p class="blog-para2">If you're having trouble with a fountain pen whether it's scratchy , too dry, or too wet...</p>
+                                    <a class="link">Read More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                                        </svg></a>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+                        <div class="cc pt-3 col-12 col-md-6">
+                            <div class="full shadow">
+                                <div class="image-content">
+                                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-trending-blogs-2-img.png" class="blog-first-image">
+                                </div>
+                                <div class="blog-content">
+                                    <p class="blog-para1">Productivity</p>
+                                    <h1 class="blog-heading">How to Craft a Better Todo List</h1>
+                                    <p class="blog-para2">A well-crafted Todo list acts as a guiding light
+                                        for your day. It helps you overcome.</p>
+                                    <a class="link">Read More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                                        </svg></a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <div id="deals">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="deals-section">
+                            <h1 class="deals-heading">Explore Deals & Offers</h1>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="gadget-section">
+                            <h1 class="gadget-heading">Upto 80% off | Electronics & Gadgets</h1>
+
+
+                            <div class="deals-info-section text-center d-flex flex-row justify-content-center">
+                                <div class="deals-image-section">
+                                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-explore-mamba-watch-img.png" class="iii">
+                                    <p class="deals-para">Smart Watch</p>
+
+                                </div>
+
+                                <div class="deals-image-section">
+                                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-explore-camera-img.png" class="iii">
+                                    <p class="deals-para">Camera</p>
+
+                                </div>
+                            </div>
+
+
+                            <div class="deals-info-section text-center d-flex flex-row justify-content-center">
+                                <div class="deals-image-section">
+                                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-explore-sport-and-fitness-img.png" class="iii">
+                                    <p class="deals-para">Sports & Fitness</p>
+
+                                </div>
+
+                                <div class="deals-image-section">
+                                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-explore-ear-phones-pink-img.png" class="iii">
+                                    <p class="deals-para">Earphones</p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <a class="link pb-4">See All Deals <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                                </svg></a>
+
+
+
+
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="gadget-section">
+                            <h1 class="gadget-heading">Festive Offers Tvs & appliances</h1>
+
+
+                            <div class="tv-image">
+                                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-explore-tv-img.png" class="tvimg">
+                            </div>
+
+
+
+
+                            <a class="linktv pb-4">See All Deals <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                                </svg></a>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="gadget-section">
+                            <h1 class="gadget-heading">Under Rs 4000 | Friendly Accessories</h1>
+
+
+                            <div class="deals-info-section text-center d-flex flex-row justify-content-center">
+                                <div class="deals-image-section">
+                                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-explore-tablet-device-img.png" class="iii">
+                                    <p class="deals-para">Tablet</p>
+
+                                </div>
+
+                                <div class="deals-image-section">
+                                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-explore-joy-stick-img.png" class="iii">
+                                    <p class="deals-para">PlayStation</p>
+
+                                </div>
+                            </div>
+
+
+                            <div class="deals-info-section text-center d-flex flex-row justify-content-center">
+                                <div class="deals-image-section">
+                                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-explore-speakers-big-img.png" class="iii">
+                                    <p class="deals-para">Speakers</p>
+
+                                </div>
+
+                                <div class="deals-image-section">
+                                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-explore-vr-set-img.png" class="iii">
+                                    <p class="deals-para">Virtual Reality Set</p>
+
+                                </div>
+                            </div>
+                            <a class="link pb-4">See All Deals <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                                </svg></a>
+                        </div>
+                    </div>
+
+
+                    <div class="col-12 text-center">
+                        <div class="join-section  ">
+                            <h1 class="join0heading ">Lets us Join Together</h1>
+                            <a href="https://linkedin.com/in/prathamesh195/"> <button class="contact-btn">Contact us</button>
+                            </a>
+
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="fut">
+            <div class="fot pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-lg-3 col-md-6">
+                            <div class="fotter-section text-center">
+                                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-website-logo-img.png" class="fotter-image">
+                                <div class="icons">
+                                    <i class="fa-brands fa-google i"></i>
+                                    <a href="https://x.com/prathamesh_210" target="_blank">
+
+                                        <i class="fa-brands fa-x-twitter i"></i>
+                                    </a>
+                                    <i class="fa-brands fa-instagram i"></i>
+                                    <a href="https://linkedin.com/in/prathamesh195/" target="_blank">
+                                        <i class="fa-brands fa-linkedin i"></i>
+                                    </a>
+
+                                </div>
+                                <p class="footer-para">Pimpri Chinchwad, Pune, India.</p>
+                            </div>
+
+                        </div>
+
+                        <div class="col-6 col-lg-3 col-md-6 mt-3">
+                            <h1 class="ghrading">Get to know us</h1>
+                            <ul class="ecommerce">
+                                <li class="list">About us</li>
+                                <li class="list">Carrer</li>
+                                <li class="list">Press Release</li>
+                                <li class="list">Gift a smile</li>
+                            </ul>
+
+                        </div>
+
+
+
+                        <div class="col-6 col-lg-3 col-md-6 mt-3">
+                            <h1 class="ghrading">Contact with Us</h1>
+                            <ul class="ecommerce">
+                                <li class="list">Facebook</li>
+                                <li class="list">Twitter</li>
+                                <li class="list">Instagram</li>
+
+                            </ul>
+
+                        </div>
+
+
+
+                        <div class="col-6 col-lg-3 col-md-6 mt-3">
+                            <h1 class="ghrading">Let Us Help You</h1>
+                            <ul class="ecommerce">
+                                <li class="list">100% Purchase Protection</li>
+                                <li class="list">Your Account</li>
+                                <li class="list">Return Centre</li>
+                                <li class="list">Help</li>
+                            </ul>
+
+                        </div>
+
+
+
+                    </div>
+
+
+
+                    <hr class="line" />
+                    <div class="footer d-flex flex-row justify-content-center">
+                        <div class="ii">
+                            <i class="fa-regular fa-copyright  footer-icon"></i>
+                        </div>
+                        <div class="ii">
+                            <p class="p">Developed by Prathamesh Gawali</p>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+</body>
+
+</html>
